@@ -14,6 +14,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v4
         with:
+          repository: mcMMO-Dev/mcMMO-Classic
           ref: 1.5.10
 
       - name: Set up Java
